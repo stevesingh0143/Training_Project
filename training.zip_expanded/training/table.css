@@ -1,0 +1,27 @@
+.tablee
+{
+}
+
+table.tablee tr td
+{
+color:black;
+}
+
+table.tablee tr th
+{
+color:white;
+}
+
+table.tablee tr td a
+{
+text-decoration:none;
+color:#000;
+
+font:'Lucida Sans Unicode',
+'Lucida Grande',sans-serif;
+font-weight:bold;
+
+}
+
+table.tablee tr td input
+{ }

@@ -1,0 +1,129 @@
+#slider {
+    position: relative;
+	width: 890px;
+	padding: 20px 10px 0 70px;
+}
+
+#templatemo_sidebar {
+	float: left;
+	width: 270px;
+}
+
+#templatemo_main {
+	float: right;
+	padding-top: 50px;
+	width: 600px;	
+}
+
+#templatemo_header {
+	margin-left: 10px;
+	width: 230px;
+	height: 114px;
+	text-align: center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; text-shadow:2px 2px #060; 
+	padding: 80px 0 0 0;
+	background: url(../images/templatemo_header.jpg) no-repeat top left;
+}
+
+#social_box {
+	display: block;
+	width: 550px;
+	height: 48px;
+	padding: 16px 0px 16px 50px;
+	margin-bottom: 20px;
+	background: url(../images/templatemo_social_box.jpg) no-repeat;
+}
+
+#social_box li {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#social_box li a {
+	width: 48px;
+	height: 48px;
+	margin-right: 60px;
+}
+
+
+#content { 
+	
+	
+	
+}
+
+.scroll {
+    height: 455px;
+    width: 600px;
+    overflow: auto;
+/*  overflow-x: hidden; */
+    position: relative;
+    clear: left;
+}
+
+.scrollContainer div.panel {
+    
+    height: 395px;
+    width: 540px;
+}
+
+ul.navigation {
+	width: 270px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	text-align: left;
+}
+
+ul.navigation li {
+    display: inline-block;
+    margin: 0px;
+	padding: 0;
+}
+
+ul.navigation a {
+	display: block;
+	width: 190px;
+	height: 33px;
+	padding: 12px 0 0 80px;
+	margin-bottom: 5px;
+	color: #8a8980;
+	font-size: 16px;
+	font-weight: normal;
+    text-decoration: none;
+	position: relative;
+}
+
+
+
+ul.navigation a:hover, ul.navigation a.selected {
+	color: #201f1b;
+	background: url(../images/templatemo_menu_hover.png) no-repeat left;
+}
+
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+	width: 0;
+	height: 0;
+}
+
+.scrollButtons.left {
+    left: -50px;
+}
+
+.scrollButtons.right {
+    right: -50px;
+}
+
+.hide {
+    display: none;
+}
